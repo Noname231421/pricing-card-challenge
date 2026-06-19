@@ -1,0 +1,133 @@
+html {
+  box-sizing: border-box;
+  font-family: karla;
+  font-size: 16px;
+    
+}
+
+h2, h4, p {
+  margin: 0px;
+}
+
+body {
+  padding : 20px;
+  background-color: #e6eff6;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit
+}
+
+#card {
+  height: 400px;
+  width: 600px;
+  box-shadow: 4px 4px 3px 0px rgba(0,0,0,0.43);
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+#bottom-right-card-section, #bottom-left-card-section, #top-card-section {
+  padding: 25px;
+}
+
+#top-card-section {
+  width: 100%;
+  height: 45%;
+  background-color: #ffffff;
+}
+
+#bottom-card-section {
+  width: 100%;
+  height: 55%;
+  top: 40%;
+  
+}
+
+#bottom-left-card-section {
+  width: 50%;
+  height: 100%;
+  display: inline-block;
+  vertical-align: top;
+  background-color: #2bb3b1;
+}
+
+#bottom-right-card-section {
+  width: 50%;
+  height: 100%;  
+  left: 40%;
+  display: inline-block;
+  vertical-align: top;
+  Background-color: #4abebd;
+}
+
+#top-card-section h2 {
+  color: #2bb3b1;
+  margin-bottom: 15px;
+}
+
+#top-card-section h4 {
+  color: #bfdf32;
+  margin-bottom: 10px;
+}
+
+#top-card-section p {
+  color: #a8aeb3;
+}
+
+#bottom-left-card-section, #bottom-right-card-section {
+  color: white;
+}
+
+#bottom-left-card-section h4 {
+  margin-bottom: 20px;
+}
+
+#price-container {
+  margin-bottom: 10px;
+}
+
+#bottom-left-card-section p {
+  margin-bottom: 20px;
+  font-size: 0.85rem;
+}
+
+button {
+  background-color: #bfdf32;
+  border: none;
+  color: white;
+  border-radius: 5px;
+  width: 100%;
+  padding: 15px;
+  font-weight: 700;
+}
+
+button:hover {
+  cursor: pointer;
+  background-color: #a9c42d;
+  transform: scale(1.03);
+}
+
+#price {
+  font-weight: 700;
+  display: inline-block;
+  font-size: 1.5rem;
+}
+
+#per-month {
+  display: inline-block;
+  position: relative;
+  bottom: 3px;
+  opacity: 0.8;
+  margin-left: 10px;
+  font-size: 0.85rem;
+}
+
+#why-list {
+  opacity: 0.9;
+}
+
+ul {
+  padding: 0;
+  list-style: none;
+  font-size: 0.85rem;
+}
